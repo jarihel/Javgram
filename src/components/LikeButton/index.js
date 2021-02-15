@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from './style'
+import { Button } from './styles'
 import { MdFavoriteBorder, MdFavorite } from 'react-icons/md'
 
 export const LikeButton = ({ like, likes, onClick }) => {
@@ -11,5 +11,3 @@ export const LikeButton = ({ like, likes, onClick }) => {
     </Button>
   )
 }
-
-// <LikedButton like={like} likes={likes} onClick={handleFavClick} />

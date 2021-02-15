@@ -5,7 +5,7 @@ import { Anchor, Image } from './styles'
 
 export const Category = ({ cover, path, emoji }) => (
   <Anchor href={path}>
-    <Image src={cover} alt="cover" />
+    <Image src={cover} alt='cover' />
     {emoji}
   </Anchor>
 )
